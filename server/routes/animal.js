@@ -77,7 +77,7 @@ router.get('/', function (req, res) {
   })
 });
 
-router .get("/count", function(req,res){
+router.get("/count", function(req,res){
   res.send(random(1,100).toString());
 
 });
